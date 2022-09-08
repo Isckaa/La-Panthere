@@ -6,7 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.wrapper {
+    margin: auto;
+    padding: auto;
+    max-width: 1280px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -337,19 +341,6 @@ a:hover {
     background: transparent;
 }
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
 
 .nav-invert .navbar .nav {
     float: left;
@@ -740,6 +731,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -822,7 +814,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/SodaPDF-converted-image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
