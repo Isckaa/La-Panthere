@@ -433,6 +433,24 @@ nav .caret {
     margin: 10px;
 }
 
+.title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.p-size {
+    font-size: 12px;
+}
+.title-slogan {
+    font-size: 19px;
+    width: auto;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 17px;
+    margin-top: 40px;
+}
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
