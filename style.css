@@ -8,7 +8,6 @@ body {
 }
 .wrapper {
     margin: auto;
-    padding: auto;
     max-width: 1280px;
 }
 a,
@@ -154,7 +153,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: #AA6A4C;
+    color: #ABD9C7;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -786,7 +785,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     /* background-color: #F3976C; */
-    background-color: #72412a;
+    background-color: #146140;
 }
 
 .tc-white {
@@ -795,12 +794,12 @@ h4 {
 
 .btn-atomic-tangerine {
     /* background: #F3976C; */
-    background: #72412a;
+    background: #146140;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #23A96F!important;
     color: #FFFFFF!important;
 }
 
@@ -814,11 +813,11 @@ h4 {
 
 .ltc-atomic-tangerine {
     /* color: #F3976C!important; */
-    color: #72412a!important;
+    color: #146140!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #23A96F!important;
 }
 
 .icon-dark-slate-blue {
@@ -865,13 +864,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -890,8 +889,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 1.4rem;
+        padding-right: 1em;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -901,8 +900,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left:  1.4rem;
+        padding-right: 1em;
     }
 }
 
